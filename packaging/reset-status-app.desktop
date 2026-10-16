@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Reset Status App
+Name[ru]=Работа с документами касс
+Comment=Сброс статусов отправки и замена shopindex в БД касс
+X-AppImage-Version=1.0.0
+Exec=ResetStatusApp
+Icon=reset-status-app
+Terminal=false
+Categories=Utility;Database;
+StartupWMClass=ResetStatusApp

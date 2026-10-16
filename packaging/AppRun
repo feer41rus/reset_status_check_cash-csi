@@ -1,0 +1,4 @@
+#!/bin/sh
+# Точка входа AppImage: запускает собранный PyInstaller-бандл.
+HERE="$(dirname "$(readlink -f "$0")")"
+exec "$HERE/usr/lib/ResetStatusApp/ResetStatusApp" "$@"

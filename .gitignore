@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Отчёты и экспорт (содержат данные реальных БД)
+logs/
+
+# Сборка AppImage (бинарники публикуются в GitHub Releases)
+packaging/build/
+dist/
+
+# Резервные копии и временные файлы
+*.bak*
+*~
+.idea/
+.vscode/
